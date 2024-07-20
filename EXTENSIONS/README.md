@@ -9,7 +9,7 @@ in which they should be run:
    *"Estimating Time Preferences from Convex Budgets"* by James Andreoni and
    Charles Sprenger (American Economic Review, 2012).
 
-   This Stata file can be obtained directly from the subfolder "Data" in
+   This Stata file can be obtained directly from the subfolder "Data" in the
    replication material of the paper available
    [here](https://www.aeaweb.org/articles?id=10.1257/aer.102.7.3333).
 
@@ -35,7 +35,7 @@ in which they should be run:
    model with the Quasi-Montecarlo Method described in the appendix of the
    paper, where the distribution of the discount rate follows a truncated normal
    distribution and a Gaussian copula is used to allow for correlation between
-   risk and time preferences . Run the script `RUN.m` in the folder to compute
+   risk and time preferences. Run the script `RUN.m` in the folder to compute
    these estimates.
 
 5. The folder "**4-Compute-HD**" contains Matlab code to compute the
@@ -49,9 +49,9 @@ in which they should be run:
    and time preferences for the whole sample using the parametric R-DEU model
    extended to allow for present bias in discounting, where the distribution of
    the discount rate follows a truncated normal distribution, the present bias
-   follows a Beta distribution, and a Gaussian copula is used to allow for
-correlation between preference parameters . Run the script `RUN.m` in the folder
-   to compute these estimates.
+   follows a Beta distribution and a Gaussian copula is used to allow for
+   correlation between preference parameters. Run the script `RUN.m` in the
+   folder to compute these estimates.
 
 7. The folder **6-Produce-Tables** reads the output from the previous steps and
    produces the Table summarizing the results and reported in the Appendix

@@ -27,21 +27,21 @@ order in which they should be run:
 3. The folder "**2-Compute-RDEU**" contains Matlab code to compute the
    maximum-likelihood estimator of of the joint distribution of risk and time
    preferences using the parametric R-DEU model described in Section 4.2 of the
-   paper. The estimation is repeated for the whole sample and for each
-   individual using multiple initial values. Run the script `RUN.m` in the
-   folder to compute these estimates.
+   paper. The estimation is repeated for the whole sample and each individual
+   using multiple initial values. Run the script `RUN.m` in the folder to
+   compute these estimates.
 
 4. The folder "**3-Compute-LUCE**" contains Matlab code to compute the
-   maximum-likelihood estimator of of the mean and variance of risk and time
+   maximum-likelihood estimator of the mean and variance of risk and time
    preferences using the LUCE model described in Section 4.2 of the paper. The
-   estimation is repeated for the whole sample and for each individual using
+   estimation is repeated for the whole sample and each individual using
    multiple initial values. Run the script `RUN.m` in the folder to compute
    these estimates.
 
 5. The folder "**4-Compute-WILCOX**" contains Matlab code to compute the
    maximum-likelihood estimator of the mean and variance of risk and time
-   preferences using the WILCOX model described in Section 4.2 of the paper.The
-   estimation is repeated for the whole sample and for each individual using
+   preferences using the WILCOX model described in Section 4.2 of the paper. The
+   estimation is repeated for the whole sample and each individual using
    multiple initial values. Run the script `RUN.m` in the folder to compute
    these estimates.
 

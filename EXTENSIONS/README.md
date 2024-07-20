@@ -55,7 +55,7 @@ in which they should be run:
 
 7. The folder **6-Produce-Tables** reads the output from the previous steps and
    produces the Table summarizing the results and reported in the Appendix
-   "Extensions".To reproduce this table, run the script `RUN.m` in the folder.
+   "Extensions". To reproduce this table, run the script `RUN.m` in the folder.
 
 Further information can be found in the comments at the beginning of each
 function and script.

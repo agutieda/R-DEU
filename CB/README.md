@@ -5,12 +5,12 @@ Tables 4 and Figures 3 and 4 in the paper. The folders are numbered in the order
 in which they should be run:
 
 1. The folder "**0-Prepare-Data**" contains R code to load and process the file
-   "dataset.dta" containing data from the replication files of the paper *"Risk
-   Preferences Are Not Time Preferences"* by James Andreoni and Charles Sprenger
-   (American Economic Review, 2012).
+   "dataset.dta". which contains data from the replication files of the paper
+   *"Risk Preferences Are Not Time Preferences"* by James Andreoni and Charles
+   Sprenger (American Economic Review, 2012).
 
-   This file can be obtained directly from the subfolder "Data" in replication
-   material of the paper available
+   This file can be obtained directly from the subfolder "Data" in the
+   replication material of the paper available
    [here](https://www.aeaweb.org/articles?id=10.1257/aer.102.7.3357).
 
    With "dataset.dta" in subfolder "input", run the R script `RUN.R` to process
@@ -23,7 +23,7 @@ in which they should be run:
    these estimates.
 
 3. The folder **2-Compute-RUM** contains Matlab code to compute the
-   maximum-likelihood estimator of of mean and variance of risk and time
+   maximum-likelihood estimator of mean and variance of risk and time
    preferences for the whole sample using the multinomial iid-RUM model
    described in Section 6.1 of the paper. Run the script `RUN.m` in the folder
    to compute these estimates.

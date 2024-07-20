@@ -4,7 +4,7 @@ This folder contains the files necessary to replicate the results reported in
 Tables 4 and Figures 3 and 4 in the paper. The folders are numbered in the order
 in which they should be run:
 
-1. The folder "**0-Prepare-Data**" contains R code to load and process the file
+1. The folder **0-Prepare-Data** contains R code to load and process the file
    "dataset.dta". which contains data from the replication files of the paper
    *"Risk Preferences Are Not Time Preferences"* by James Andreoni and Charles
    Sprenger (American Economic Review, 2012).

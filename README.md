@@ -8,7 +8,7 @@ This repository contains the following folders:
 
 1. **DMPL** contains the code to reproduce the results reported in Section 4 of
    the paper, which presents the application of the R-DEU model to Double
-   Multiple Price Lists (DMPL) data.
+   Multiple Price List (DMPL) data.
 
 2. **CB** contains the code to reproduce the results reported in Section 6 of
    the paper, where the application of the R-DEU model to Convex Budget (CB)

@@ -1,7 +1,7 @@
 # Random Discounted Expected Utility
 
 Code to replicate the empirical results reported in **"*Random
-Discounted Expected Utility*"** by Jose Apesteguia, Miguel A. Ballester, and
+Discounted Expected Utility*"**, by Jose Apesteguia, Miguel A. Ballester, and
 Ángelo Gutiérrez-Daza.
 
 A local copy of the paper can be found [here](https://gutierrez-daza.com/publication/r-deu/R-DEU.pdf).

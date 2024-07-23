@@ -1,57 +1,61 @@
-# R-DEU: Double Multiple Price Lists
+# Empirical Illustration of R-DEU Using Double Multiple Price List Data
 
 This folder contains the files necessary to replicate the results reported in
-Tables 1-3 and Figures 1 and 2 in the paper. The folders are numbered in the
-order in which they should be run:
+Tables 1-3 and Figures 1 and 2 in Section 4 of paper. Its subfolders are
+numbered in the order in which they should be run:
 
-1. The folder **0-Prepare-Data** contains R code to load and process the file
+1. The subfolder **0-Prepare-Data** contains R code to load and process the file
    "tmp.dta" containing data from the replication files of the paper *"Eliciting
    Risk And Time Preferences"* by Steffen Andersen, Glenn Harrison, Morten Lau,
-   and Elisabet Rutstroml (Econometrica, 2008).
-
-   To obtain this file, download the replication material of the paper,
-   available
+   and Elisabet Rutstroml (Econometrica, 2008). To obtain this file, download
+   the replication material of the paper, available
    [here](https://www.econometricsociety.org/publications/econometrica/2008/05/01/eliciting-risk-and-time-preferences),
    and run the script "RiskAndTime.do" while commenting lines 37-42 of the
    script to prevent file deletion. The script will create the desired file
    "tmp.dta".
 
-   With "tmp.dta" in subfolder "input", run the R script `RUN.R` to process the
+   Place "tmp.dta" in subfolder "input", run the R script `RUN.R` to process the
    raw data and and select the sample used in Section 4 of the paper.
 
-2. The folder **1-Compute-SPE** contains Matlab code to compute the
+2. The subfolder **1-Compute-SPE** contains Matlab code to compute the
    semi-parametric estimator (SPE) of the mean and variance of risk and time
-   preferences described in Section 4.1 of the paper. Run the script `RUN.m` in
-   the folder to compute these estimates.
+   preferences described in Section 4.1 of the paper. The estimation is repeated
+   for the whole sample and each individual. Run the script `RUN.m` in this
+   subfolder to compute these estimates and their standard errors.
 
-3. The folder **2-Compute-RDEU** contains Matlab code to compute the
+3. The subfolder **2-Compute-RDEU** contains Matlab code to compute the
    maximum-likelihood estimator of of the joint distribution of risk and time
    preferences using the parametric R-DEU model described in Section 4.2 of the
    paper. The estimation is repeated for the whole sample and each individual
-   using multiple initial values. Run the script `RUN.m` in the folder to
-   compute these estimates.
+   using multiple initial values. Run the script `RUN.m` in this subfolder to
+   compute these estimates and their standard errors.
 
-4. The folder **3-Compute-LUCE** contains Matlab code to compute the
+4. The subfolder **3-Compute-LUCE** contains Matlab code to compute the
    maximum-likelihood estimator of the mean and variance of risk and time
    preferences using the LUCE model described in Section 4.2 of the paper. The
    estimation is repeated for the whole sample and each individual using
-   multiple initial values. Run the script `RUN.m` in the folder to compute
-   these estimates.
+   multiple initial values. Run the script `RUN.m` in this subfolder to compute
+   these estimates and their standard errors.
 
-5. The folder **4-Compute-WILCOX** contains Matlab code to compute the
+5. The subfolder **4-Compute-WILCOX** contains Matlab code to compute the
    maximum-likelihood estimator of the mean and variance of risk and time
    preferences using the WILCOX model described in Section 4.2 of the paper. The
    estimation is repeated for the whole sample and each individual using
-   multiple initial values. Run the script `RUN.m` in the folder to compute
-   these estimates.
+   multiple initial values. Run the script `RUN.m` in this subfolder to compute
+   these estimates and their standard errors.
 
-6. The folder **5-Produce-Tables** reads the output from the previous steps
+6. The subfolder **5-Produce-Tables** reads the output from the previous steps
    and produces Tables 1, 2, and 3 in the paper. To reproduce them, run the
-   script `RUN.m` in the folder.
+   script `RUN.m` in this subfolder after running the corresponding files in
+   subfolders 0 to 4.
 
 7. The folder "**6-Produce-Figures**" reads the output from the previous steps
    and produces Figures 1 and 2 in the paper. To reproduce them, run the script
-   `RUN.m` in the folder.
+   `RUN.m` in this subfolder after running the corresponding files in subfolders
+   0 to 4.
 
 Further information can be found in the comments at the beginning of each
 function and script.
+
+The code has been tested using Matlab R2024a and R version 4.4.1 on a Windows 11
+machine.
